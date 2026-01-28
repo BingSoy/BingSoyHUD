@@ -1,5 +1,0 @@
-To make demo sorting/reviewing easier. Includes buttons for use with Lawena+HLAE
-Lawena:
-https://lawena.github.io/
-HLAE (Half-Life Advanced Effects):
-https://github.com/advancedfx/advancedfx

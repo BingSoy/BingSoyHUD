@@ -1,0 +1,2 @@
+- if steam can't find the player/killer's avatar or you're killed by a bot then the spacing of the name will get messed up since the killer name is anchored to the avatar
+- big avatar spacing messes up initially but then displays normally when higher resolution avatar loads in

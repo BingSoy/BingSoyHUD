@@ -1,3 +1,4 @@
+//"NEW ITEM ACQUIRED!"
 "Resource/UI/ItemPickupPanel.res"
 {
 	"item_pickup"
@@ -16,9 +17,9 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"				"20 20 20 245"//"46 43 42 255"
+		"infocus_bgcolor_override" 		"20 20 20 245"//"46 43 42 255"
+		"outoffocus_bgcolor_override" 	"20 20 20 245"//"46 43 42 255"
 		
 		"modelpanels_spacing"		"40"
 		"modelpanels_width"			"500"
@@ -80,11 +81,11 @@
 		"scaleImage"	"1"
 	}
 	
-	"ItemsFoundLabel"
+	"ItemsFoundLabel" //"New Item Acquired!"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemsFoundLabel"
-		"font"			"HudFontMediumBigBold"
+		"font"			"fntGenBigger"//"HudFontMediumBigBold"
 		"labelText"		"#NewItemsAcquired"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -98,11 +99,11 @@
 		"enabled"		"1"
 	}
 	
-	"SelectedItemFoundMethodLabel"
+	"SelectedItemFoundMethodLabel" //"You Found/Crafted/Traded for:", etc.
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelectedItemFoundMethodLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"fntGenLarge"//"HudFontMediumSmallBold"
 		"labelText"		""
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -116,7 +117,7 @@
 		"enabled"		"1"
 	}
 	
-	"ItemCountLabel"
+	"ItemCountLabel" //"Item"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemCountLabel"
@@ -133,7 +134,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	"SelectedItemNumberLabel"
+	"SelectedItemNumberLabel" //"#1/#2#/3$/4#", etc.
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SelectedItemNumberLabel"
@@ -212,18 +213,18 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"c50"
-		"ypos"			"420"
+		"xpos"			"c0"//"c50"
+		"ypos"			"r50"//"420"
 		"zpos"			"6"
-		"wide"			"250"
-		"tall"			"30"
+		"wide"			"430"//"250"
+		"tall"			"50"//"30"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#CloseItemPanel"
-		"font"			"HudFontSmallBold"
+		"font"			"fntGenLarge"//"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -241,18 +242,18 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"OpenLoadoutButton"
-		"xpos"			"c-300"
-		"ypos"			"420"
+		"xpos"			"0"//"c-300"
+		"ypos"			"r50"//"420"
 		"zpos"			"6"
-		"wide"			"250"
-		"tall"			"30"
+		"wide"			"427"//"250"
+		"tall"			"50"//"30"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%loadouttext%"
-		"font"			"HudFontSmallBold"
+		"font"			"fntGenLarge"//"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

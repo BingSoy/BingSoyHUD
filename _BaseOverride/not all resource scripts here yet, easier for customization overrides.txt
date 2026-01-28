@@ -1,0 +1,1 @@
+for better organization and customization, default resource files point here

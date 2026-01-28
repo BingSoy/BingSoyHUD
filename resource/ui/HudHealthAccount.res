@@ -1,16 +1,16 @@
 "Resource/UI/HudHealthAccount.res" // HudLayout.res
 {
-	"CHealthAccountPanel"
+	"CHealthAccountPanel" //hide for other one
 	{
 		"fieldName"				"CHealthAccountPanel"
 		"delta_item_x"			"0"//"50"//"13"
 		"delta_item_start_y"	"0"//"50"
 		"delta_item_end_y"		"0"//"0"
-		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 0 0 255"
+		"PositiveColor"			"0 255 0 0"//"0 255 0 255"
+		"NegativeColor"			"0 255 0 0"//"255 0 0 255"
 		"delta_lifetime"		"1"//"0.8"//"1.5"
-		"delta_item_font"		"font_dmgacc6"//"HudFontMedium"
-		"delta_item_font_minmode"		"font_dmgacc_minmode6"
+		"delta_item_font"		""//"font_dmgacc6"//"HudFontMedium"
+		"delta_item_font_minmode"		""//"font_dmgacc_minmode6"
 	}
 	"CustomHPAccountVal"
 	{

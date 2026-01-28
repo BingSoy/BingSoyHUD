@@ -1,1 +1,2 @@
-#base "../../resource/ui/EXT_ObjectivesTimers/HudObjectiveFlagPanel.res"
+//base
+#base "../../_BaseOverride/resource/ui/HudObjectiveFlagPanel.res"

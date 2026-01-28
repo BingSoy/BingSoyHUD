@@ -1,0 +1,1 @@
+sv_cheats 1; mat_reloadmaterial health_bg; mat_reloadmaterial health_color

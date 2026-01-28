@@ -1,0 +1,2 @@
+customizations for demo playback:
+for hud elements to fit half of the screen so you can more cleanly show hud in a split screen sequence of a tf2 video/fragmovie

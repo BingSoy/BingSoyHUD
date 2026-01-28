@@ -1,3 +1,0 @@
-Fonts are broken; not appearing correctly
-‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
-Go to "resource/fonts" directory and install each font in the folder.

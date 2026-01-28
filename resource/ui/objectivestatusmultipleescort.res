@@ -1,1 +1,2 @@
-#base "../../resource/ui/EXT_Objectives/ObjectiveStatusMultipleEscort.res"
+//base
+#base "../../_BaseOverride/resource/ui/ObjectiveStatusMultipleEscort.res"

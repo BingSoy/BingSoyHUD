@@ -1,10 +1,11 @@
+//mvm scoreboard
 "Resource/UI/MvMCreditSpendPanel.res"
 {	
 	"HeaderLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HeaderLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"fntGenMedium"//"HudFontSmallBold"
 		"labelText"		"%header%"
 		"textAlignment" "north-west"
 		"xpos"			"0"
@@ -31,7 +32,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"UpgradesLabel"
-		"font"			"HudFontSmall"
+		"font"			"fntGenMiddish"//"HudFontSmall"
 		"labelText"		"#TF_PVE_Upgrades"
 		"textAlignment" "north-west"
 		"xpos"			"10"
@@ -45,7 +46,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"UpgradesCountLabel"
-		"font"			"HudFontSmall"
+		"font"			"fntGenMiddish"//"HudFontSmall"
 		"labelText"		"%upgrades%"
 		"textAlignment" "north-east"
 		"xpos"			"100"
@@ -59,7 +60,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
-		"font"			"HudFontSmall"
+		"font"			"fntGenMiddish"//"HudFontSmall"
 		"labelText"		"#TF_PVE_Buybacks"
 		"textAlignment" "north-west"
 		"xpos"			"10"
@@ -73,7 +74,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackCountLabel"
-		"font"			"HudFontSmall"
+		"font"			"fntGenMiddish"//"HudFontSmall"
 		"labelText"		"%buybacks%"
 		"textAlignment" "north-east"
 		"xpos"			"100"
@@ -87,7 +88,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BottleLabel"
-		"font"			"HudFontSmall"
+		"font"			"fntGenMiddish"//"HudFontSmall"
 		"labelText"		"#TF_PVE_Bottles"
 		"textAlignment" "north-west"
 		"xpos"			"10"
@@ -101,7 +102,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BottleCountLabel"
-		"font"			"HudFontSmall"
+		"font"			"fntGenMiddish"//"HudFontSmall"
 		"labelText"		"%bottles%"
 		"textAlignment" "north-east"
 		"xpos"			"100"

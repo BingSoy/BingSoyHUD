@@ -1,0 +1,8 @@
+WARNING: The friends list will open randomly like the motd/news panel. Keep this in mind if you livestream.
+
+Credit to "Hide/Show Friends list button" menu mod by ProtoA - How I learned how to do the button
+https://gamebanana.com/mods/485024
+
+- I made it so the friends list can be toggled with a button instead of shown all the time.
+- If you want even more safety, disable the friends list with this customization.
+- Also (for OBS users), remember to turn off steam overlay for TF2 and/or make sure you're using game capture instead of window capture if you really don't want your friends list to be shown.

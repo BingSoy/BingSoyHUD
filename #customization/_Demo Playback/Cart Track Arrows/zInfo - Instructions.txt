@@ -1,0 +1,18 @@
+The cart track might look too big/small depending on the payload mode.
+
+Instructions
+============
+Simply run any of the AutoHotkey (.ahk) scripts to replace the default skin with a different one.
+Or you could manually copy and paste the skin into the "../BingSoyHUD/materials/hud" directory
+
+How to load/update the material
+===============================
+You need to reload the cart track material after replacing it (requires sv_cheats 1).
+Disconnect from the current game if you're in a casual or community server then copy & execute the following line in the console (or use the "Reload Cart Arrow" button on the menu):
+▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
+sv_cheats 1; mat_reloadmaterial cart_track_arrow
+▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲
+or execute into the console:
+sv_cheats 1; mat_reloadallmaterials
+or
+Restart the game

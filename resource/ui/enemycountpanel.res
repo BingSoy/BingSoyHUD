@@ -1,1 +1,2 @@
-#base "../../resource/ui/EXT_MvM/EnemyCountPanel.res"
+//base
+#base "../../_BaseOverride/resource/ui/EnemyCountPanel.res"

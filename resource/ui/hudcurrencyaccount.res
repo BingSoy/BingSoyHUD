@@ -1,1 +1,2 @@
-#base "../../resource/ui/EXT_MvM/HudCurrencyAccount.res"
+//base
+#base "../../_BaseOverride/resource/ui/HudCurrencyAccount.res"

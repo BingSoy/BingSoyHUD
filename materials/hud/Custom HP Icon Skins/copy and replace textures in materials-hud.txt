@@ -1,1 +1,0 @@
-replace materials from 1 of these folders to replace those in "../BingSoyHUD/materials/hud"

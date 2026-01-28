@@ -1,0 +1,1 @@
+warning (more of an issue if you stream): the friends list will open randomly just like the motd panel (it does use the motd after all)

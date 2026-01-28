@@ -1,1 +1,2 @@
-#base "../../resource/ui/EXT_MvM/HudMannVsMachineStatus.res"
+//base
+#base "../../_BaseOverride/resource/ui/HudMannVsMachineStatus.res"

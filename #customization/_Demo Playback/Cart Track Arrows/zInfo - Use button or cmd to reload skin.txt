@@ -1,0 +1,1 @@
+sv_cheats 1; mat_reloadmaterial cart_track_arrow

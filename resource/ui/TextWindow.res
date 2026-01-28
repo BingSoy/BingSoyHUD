@@ -35,7 +35,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"fontMenuBSHUDTitle"//"ChalkboardTitle"
+		"font"			"fntGenLarge"//"ChalkboardTitle"
 		"fgcolor"		"White"
 	}	
 
@@ -104,7 +104,7 @@
 		"wrap"		"0"
 		"command"		"okay"
 		"default"		"1"
-		"font"			"fntMenuCustomButtonBig"//"MenuSmallFont"
+		"font"			"fntGenLarge"//"MenuSmallFont"
 		"defaultfgColor_override"	"colMenuBtn_Def_Fg"
 		"defaultbgColor_override"	"colMenuBtn_Def_Bg"
 		"armedbgColor_override"		"colMenuBtn_Def_BgArm"

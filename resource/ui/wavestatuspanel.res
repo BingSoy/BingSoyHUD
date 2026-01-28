@@ -1,1 +1,2 @@
-#base "../../resource/ui/EXT_MvM/WaveStatusPanel.res"
+//base
+#base "../../_BaseOverride/resource/ui/WaveStatusPanel.res"

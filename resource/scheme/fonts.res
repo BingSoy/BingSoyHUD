@@ -2,7 +2,7 @@ Scheme
 {
 	Fonts
 	{
-	// HUNTSMAN POWER INDICATORS
+		// HUNTSMAN POWER INDICATORS
 		"Verdana 1" // Huntsman power indicators "|"
 		{
 			"1"
@@ -123,183 +123,61 @@ Scheme
 				"dropshadow"	"0"
 			}
 		}
-		//notification count label
-		"fontNotificationCount"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"30"
-				"weight"	"700"
-				"yres"		"1200 10000"
-				"dropshadow"	"1"
-			}
-		}
-		//PlayingTo
-		"fontPlayingTo"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"700"
-				"yres"		"1200 10000"
-				"dropshadow"	"1"
-			}
-		}
-		//PlayerStatusHealthValue
-		"fontPlayerStatusHealthValue"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"700"
-				"yres"		"1200 10000"
-				"dropshadow"	"1"
-			}
-		}
-		"fontCTFScore" //CTF score
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"50"
-				"weight"	"700"
-				"yres"		"1200 10000"
-				"dropshadow"	"1"
-			}
-		}
-		//////////////////////
 		"font_deathnotice" //kill feed
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"30"
-				"weight"	"700"
-				"yres"		"1200 10000"
-				"dropshadow"	"0"
-			}
-			// {
-				// "name"		"Verdana"
-				// "tall"		"12"
-				// "antialias" "0"
-				// "dropshadow"	"1"
-				// "weight"	"700"
-			// }
-		}
-		"font_waitingforplayers" //setup too
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"30"
-				"weight"	"700"
-				"yres"		"1200 10000"
+				"name"			"Verdana"
+				"tall"			"15"
+				"weight"		"700"
+				"yres"			"480 599"
 				"dropshadow"	"1"
 			}
-		}
-		"font_waitingforplayers_minmode" //setup too
-		{
-			"1"
+			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"30"
-				"weight"	"700"
-				"yres"		"1200 10000"
+				"name"			"Verdana"
+				"tall"			"20"
+				"weight"		"700"
+				"yres"			"600 767"
 				"dropshadow"	"1"
 			}
-		}
-		"font_roundtimer" //setup too
-		{
-			"1"
+			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"40"
-				"weight"	"700"
-				"yres"		"1200 10000"
+				"name"			"Verdana"
+				"tall"			"25"
+				"weight"		"700"
+				"yres"			"768 1023"
 				"dropshadow"	"1"
 			}
-		}
-		"font_roundtimer_minmode" //setup too
-		{
-			"1"
+			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"30"
-				"weight"	"700"
-				"yres"		"1200 10000"
+				"name"			"Verdana"
+				"tall"			"27"
+				"weight"		"700"
+				"yres"			"1024 1199"
 				"dropshadow"	"1"
 			}
-		}
-		//replace general fonts
-		//HudFontSmallestBold
-		"fntSmallestBold"
-		{
-			"1"
+			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"30"
-				"weight"	"700"
-				"yres"		"1200 10000"
+				"name"			"Verdana"
+				"tall"			"30"
+				"weight"		"700"
+				"yres"			"1200 6000"
 				"dropshadow"	"1"
 			}
-		}
-		//HudFontSmallBold
-		"fntSmallBold"
-		{
-			"1"
+			"6"
 			{
-				"name"		"Verdana"
-				"tall"		"35"
-				"weight"	"700"
-				"yres"		"1200 10000"
-				"dropshadow"	"1"
+				"name"			"Verdana"
+				"tall"			"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
 			}
-		}
-		"fntInstructionsLabel"
-		{
-			"1"
+			"7"
 			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"700"
-				"yres"		"1200 10000"
-				"dropshadow"	"1"
-			}
-		}
-		"fntMvMWaveCountLabel"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"15"//"30"
-				"weight"	"700"
-				//"yres"		"1200 10000"
-				"dropshadow"	"1"
-			}
-		}
-		"fntTournamentPlayerName"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"8"//"15"
-				"weight"	"700"
-				//"yres"		"1200 10000"
-				"dropshadow"	"1"
-			}
-		}
-		"fntTournamentCountdown" //mvm timer
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"50"
-				"weight"	"700"
-				"yres"		"1200 10000"
-				"dropshadow"	"1"
+				"name"			"Arial"
+				"tall"			"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
 			}
 		}
 		//charge dmg guide
@@ -307,170 +185,345 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bebas Neue"
-				"tall"		"8"
-				"antialias" "0"
+				"name"			"Bebas Neue"
+				"tall"			"8"
+				"antialias" 	"0"
 				"dropshadow"	"0"
-				"weight"	"700"
+				"weight"		"700"
 			}
 		}
 		"font_bowdmgval_OLshadow"
 		{
 			"1"
 			{
-				"name"		"Bebas Neue OLShadow"
-				"tall"		"8"
-				"antialias" "0"
+				"name"			"Bebas Neue OLShadow"
+				"tall"			"8"
+				"antialias" 	"0"
 				"dropshadow"	"0"
-				"weight"	"700"
+				"weight"		"700"
+			}
+		}
+		"font_bowpips_OLD"
+		{
+			"1"
+			{
+				"name"			"BSHUDbowpips"
+				"tall"			"13"
+				"weight"		"0"
+				"dropshadow"	"0"
+				"yres"			"1200 6000"
 			}
 		}
 		"font_bowpips"
 		{
 			"1"
 			{
-				"name"		"BSHUDbowpips"
-				"tall"		"7"
-				"antialias" "0"
+				"name"			"BSHUDbowpips"
+				"tall"			"6"
+				"weight"		"0"
 				"dropshadow"	"0"
-				"weight"	"700"
+				"antialias" 	"0"
+				"yres"			"480 599"
+			}
+			"2"
+			{
+				"name"			"BSHUDbowpips"
+				"tall"			"8"
+				"weight"		"0"
+				"dropshadow"	"0"
+				"antialias" 	"0"
+				"yres"			"600 767"
+			}
+			"3"
+			{
+				"name"			"BSHUDbowpips"
+				"tall"			"10"
+				"weight"		"0"
+				"dropshadow"	"0"
+				"antialias" 	"0"
+				"yres"			"768 1023"
+			}
+			"4"
+			{
+				"name"			"BSHUDbowpips"
+				"tall"			"12"
+				"weight"		"0"
+				"dropshadow"	"0"
+				"antialias" 	"0"
+				"yres"			"1024 1199"
+			}
+			"5"
+			{
+				"name"			"BSHUDbowpips"
+				"tall"			"13"//"7"
+				"weight"		"0"
+				"dropshadow"	"0"
+				"antialias" 	"0"
+				"yres"			"1200 6000"
+			}
+			"6"
+			{
+				"name"			"Verdana"
+				"tall"			"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+			"7"
+			{
+				"name"			"Arial"
+				"tall"			"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
+			}
+		}
+		"font_bowpips_innersouth_OLD"
+		{
+			"1"
+			{
+				"name"			"BSHUDbowpips"
+				"tall"			"4"
+				"antialias" 	"0"
+				"dropshadow"	"0"
+				"weight"		"700"
+			}
+		}
+		"font_bowpips_innersouth" //inside bar pointing down for class threshold icons
+		{
+			"1"
+			{
+				"name"			"BSHUDbowpips"
+				"tall"			"4"
+				"antialias" 	"0"
+				"dropshadow"	"0"
+				"weight"		"700"
+			}
+		}
+		"font_bowpips_innersouth_WIP" //too jagged
+		{
+			"1"
+			{
+				"name"			"BSHUDbowpips"
+				"tall"			"20"
+				"weight"		"700"
+				"dropshadow"	"0"
+				"antialias" 	"0"
+				//"yres"			"480 599"
+			}
+			"2"
+			{
+				"name"			"BSHUDbowpips"
+				"tall"			"20"
+				"weight"		"700"
+				"dropshadow"	"0"
+				"antialias" 	"0"
+				//"yres"			"600 767"
+			}
+			"3"
+			{
+				"name"			"BSHUDbowpips"
+				"tall"			"30"
+				"weight"		"700"
+				"dropshadow"	"0"
+				"antialias" 	"0"
+				//"yres"			"768 1023"
+			}
+			"4"
+			{
+				"name"			"BSHUDbowpips"
+				"tall"			"30"
+				"weight"		"700"
+				"dropshadow"	"0"
+				"antialias" 	"0"
+				//"yres"			"1024 1199"
+			}
+			"5"
+			{
+				"name"			"BSHUDbowpips"
+				"tall"			"4"
+				"weight"		"700"
+				"dropshadow"	"0"
+				"antialias" 	"0"
+				//"yres"			"1200 6000"
+			}
+			"6"
+			{
+				"name"			"Verdana"
+				"tall"			"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+			"7"
+			{
+				"name"			"Arial"
+				"tall"			"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
+			}
+		}
+		//bitmap test
+		"fntBowDmgVal" //=size 12
+		{
+			"1"
+			{
+				"name"			"PF Tempesta Seven Compressed"
+				"tall"			"12"
+				"weight"		"0"
+				"yres"			"480 599"
+				"dropshadow"	"1"
+			}
+			"2"
+			{
+				"name"			"PF Tempesta Seven Compressed"
+				"tall"			"15"
+				"weight"		"0"
+				"yres"			"600 767"
+				"dropshadow"	"1"
+			}
+			"3"
+			{
+				"name"			"PF Tempesta Seven Compressed"
+				"tall"			"18"
+				"weight"		"0"
+				"yres"			"768 1023"
+				"dropshadow"	"1"
+			}
+			"4"
+			{
+				"name"			"PF Tempesta Seven Compressed"
+				"tall"			"22"
+				"weight"		"0"
+				"yres"			"1024 1199"
+				"dropshadow"	"1"
+			}
+			"5"
+			{
+				"name"			"PF Tempesta Seven Compressed"
+				"tall"			"26"
+				"weight"		"0"
+				"yres"			"1200 6000"
+				"dropshadow"	"1"
+			}
+			"6"
+			{
+				"name"			"Verdana"
+				"tall"			"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+			"7"
+			{
+				"name"			"Arial"
+				"tall"			"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
+			}
+		}
+		/////////////////////////////////
+		"fntBowPipSpanVert"
+		{
+			"1"
+			{
+				"name"			"BSHUDbowpips"
+				"tall"			"12"
+				"antialias" 	"0"
+				"dropshadow"	"0"
+				"weight"		"700"
 			}
 		}
 		"font_crosshair_hitmarker"
 		{
 			"1"
 			{
-				"name"		"BSTFcrosshairs"
-				"tall"		"20"
-				"antialias" "0"
+				"name"			"BSTFcrosshairs"
+				"tall"			"20"
+				"antialias" 	"0"
 				"dropshadow"	"0"
-				"weight"	"700"
+				"weight"		"700"
 			}
 		}
 		"font_crosshair_hitmarker_notasbig"
 		{
 			"1"
 			{
-				"name"		"BSTFcrosshairs"
-				"tall"		"35"
-				"antialias" "0"
+				"name"			"BSTFcrosshairs"
+				"tall"			"35"
+				"antialias" 	"0"
 				"dropshadow"	"0"
-				"weight"	"700"
+				"weight"		"700"
 			}
 		}
 		"font_crosshair_hitmarker_big"
 		{
 			"1"
 			{
-				"name"		"BSTFcrosshairs"
-				"tall"		"40"
-				"antialias" "0"
+				"name"			"BSTFcrosshairs"
+				"tall"			"40"
+				"antialias" 	"0"
 				"dropshadow"	"0"
-				"weight"	"700"
-			}
-		}
-		"font_numplayerscap"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"30"//"22"
-				"weight"	"700"
-				"yres"		"1200 10000"
-				//"dropshadow"	"1"
-			}
-		}
-		"font_respawntime"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"30"//"22"
-				"weight"	"700"
-				"yres"		"1200 10000"
-				"dropshadow"	"1"
-			}
-		}
-		"font_playername_minmode"
-		{
-			"1"
-			{
-				"name"		"Arial"
-				"tall"		"12"
-				"weight"	"0"
-				"yres"		"1200 10000"
-				"dropshadow"	"1"
-			}
-		}
-		"font_playername_newog"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"16"
-				"weight"	"700"
-				"yres"		"1200 10000"
-				"dropshadow"	"1"
+				"weight"		"700"
 			}
 		}
 		"font_playername_og"
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"15"
-				"weight"	"700"
-				"yres"		"1200 10000"
+				"name"			"Verdana"
+				"tall"			"6"
+				"antialias" 	"0"
+				"weight"		"700"
+				"yres"			"480 599"
 				"dropshadow"	"1"
 			}
-		}
-		"font_playername"
-		{
-			"1"
+			"2"
 			{
-				"name"		"Arial"
-				"tall"		"15"
-				"weight"	"0"
-				"yres"		"1200 10000"
+				"name"			"Verdana"
+				"tall"			"9"
+				"antialias" 	"0"
+				"weight"		"700"
+				"yres"			"600 767"
 				"dropshadow"	"1"
 			}
-		}
-		"font_playername_alt"
-		{
-			"1"
+			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"0"
-				"yres"		"1200 10000"
+				"name"			"Verdana"
+				"tall"			"11"
+				"antialias" 	"0"
+				"weight"		"700"
+				"yres"			"768 1023"
 				"dropshadow"	"1"
 			}
-		}
-		"font_playername_alt2"
-		{
-			"1"
+			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"15"
-				"weight"	"0"
-				"yres"		"1200 10000"
+				"name"			"Verdana"
+				"tall"			"13"
+				"antialias" 	"0"
+				"weight"		"700"
+				"yres"			"1024 1199"
 				"dropshadow"	"1"
 			}
-		}
-		"font_ref_chat"
-		{
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"22"
-				"weight"	"700"
-				"yres"		"1200 10000"
+				"name"			"Verdana"
+				"tall"			"15"
+				"antialias" 	"0"
+				"weight"		"700"
+				"yres"			"1200 6000"
 				"dropshadow"	"1"
 			}
+			"6"
+			{
+				"name"			"Verdana"
+				"tall"			"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+			"7"
+			{
+				"name"			"Arial"
+				"tall"			"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
+			}
 		}
-	}
-	CustomFontFiles
-	{
-	
 	}
 }

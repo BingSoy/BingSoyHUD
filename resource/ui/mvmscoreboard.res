@@ -15,17 +15,17 @@
 		"verbose"			"1"
 	}
 	
-	"PopFileLabel"
+	"PopFileLabel" //mvm map label
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabel"
-		"font"			"ScoreboardMedium"
+		"font"			"fntGenBig"//"ScoreboardMedium"
 		"labelText"		"%popfile%"
 		"textAlignment"	"east"
 		"xpos"			"290"
-		"ypos"			"375"
+		"ypos"			"373"//"375"
 		"wide"			"290"
-		"tall"			"20"
+		"tall"			"22"//"20"
 		"fgcolor"		"tanlight"
 	}
 
@@ -36,20 +36,20 @@
 		"xpos"			"425"
 		"ypos"			"30"
 		"wide"			"150"
-		"tall"			"20"
+		"tall"			"24"//"20"
 		"visible"		"1"
 		
 		"DifficultyLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyLabel"
-			"font"			"HudFontSmallest"
+			"font"			"fntGenMedium"//"HudFontSmallest"
 			"labelText"		"#TF_MvM_Difficulty"
 			"textAlignment"	"center"
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"-2"//"0"
 			"wide"			"150"
-			"tall"			"10"
+			"tall"			"14"//"10"
 			"fgcolor"		"tanlight"
 		}
 		
@@ -57,13 +57,13 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyValue"
-			"font"			"HudFontSmallBold"
+			"font"			"fntGenLarge"//"HudFontSmallBold"
 			"labelText"		"%difficultyvalue%"
 			"textAlignment"	"center"
 			"xpos"			"0"
-			"ypos"			"9"
+			"ypos"			"12"//"9"
 			"wide"			"150"
-			"tall"			"10"
+			"tall"			"12"//"10"
 			"fgcolor"		"tanlight"
 		}
 	}

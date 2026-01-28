@@ -1,0 +1,2 @@
+- 4_DEMOMAN - Hide Shield Charge Guide: The outline and charge bar background is always shown regardless if you have a shield equipped or not unless you disable with this
+- 8_SNIPER - HuntsmanJarate: Huntsman bow charge guide (overrides demoman sticky launcher & loose cannon) & jarate cooldown labels (overrides the general weapon meter bar)

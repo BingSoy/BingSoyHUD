@@ -1,10 +1,11 @@
+//mvm scoreboard
 "Resource/UI/MvMCreditSubPanel.res"
 {	
 	"HeaderLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HeaderLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"fntGenMedium"//"HudFontSmallBold"
 		"labelText"		"%header%"
 		"textAlignment" "north-west"
 		"xpos"			"0"
@@ -31,7 +32,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedTextLabel"
-		"font"			"HudFontSmall"
+		"font"			"fntGenMiddish"//"HudFontSmall"
 		"labelText"		"#TF_PVE_Collected"
 		"textAlignment" "north-west"
 		"xpos"			"10"
@@ -45,7 +46,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedCountLabel"
-		"font"			"HudFontSmall"
+		"font"			"fntGenMiddish"//"HudFontSmall"
 		"labelText"		"%creditscollected%"
 		"textAlignment" "north-east"
 		"xpos"			"100"
@@ -59,7 +60,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditMissedTextLabel"
-		"font"			"HudFontSmall"
+		"font"			"fntGenMiddish"//"HudFontSmall"
 		"labelText"		"#TF_PVE_Missed"
 		"textAlignment" "north-west"
 		"xpos"			"10"
@@ -73,7 +74,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditMissedCountLabel"
-		"font"			"HudFontSmall"
+		"font"			"fntGenMiddish"//"HudFontSmall"
 		"labelText"		"%creditsmissed%"
 		"textAlignment" "north-east"
 		"xpos"			"100"
@@ -87,7 +88,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditBonusTextLabel"
-		"font"			"HudFontSmall"
+		"font"			"fntGenMiddish"//"HudFontSmall"
 		"labelText"		"#TF_PVE_Bonus"
 		"textAlignment" "north-west"
 		"xpos"			"10"
@@ -101,7 +102,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditBonusCountLabel"
-		"font"			"HudFontSmall"
+		"font"			"fntGenMiddish"//"HudFontSmall"
 		"labelText"		"%creditbonus%"
 		"textAlignment" "north-east"
 		"xpos"			"100"
@@ -111,15 +112,15 @@
 		"fgcolor"		"CreditsGreen"
 	}
 		
-	"CreditRatingLabelShadow"
+	"CreditRatingLabelShadow" //hide
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditRatingLabelShadow"
 		"font"			"HudFontMediumBold"
 		"labelText"		"%ratingshadow%"
 		"textAlignment" "center"
-		"xpos"			"126"
-		"ypos"			"26"
+		"xpos"			"9999"//"126"
+		"ypos"			"9999"//"26"
 		"wide"			"70"
 		"tall"			"20"
 		"fgcolor"		"Black"
@@ -129,7 +130,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditRatingLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"fntGenLarge"//"HudFontMediumBold"
 		"labelText"		"%rating%"
 		"textAlignment" "center"
 		"xpos"			"125"

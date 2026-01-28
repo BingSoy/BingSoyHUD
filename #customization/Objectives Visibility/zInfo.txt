@@ -1,0 +1,1 @@
+hides objectives ui - useful for some deathmatch servers where the objectives are disabled

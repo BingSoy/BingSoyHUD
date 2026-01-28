@@ -1,5 +1,3 @@
-#base "../../resource/ui/HudAmmoWeapons_TEST.res"
-
 "Resource/UI/HudAmmoWeapons.res"
 {
 	// HudLayout.res > HudWeaponAmmo
@@ -13,8 +11,8 @@
 		"zpos"			"-100"
 		"wide"			"1000"
 		"tall"			"1000"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"paintBackgroundType"	"0"
 		"bgcolor_override"		"255 200 0 0"
 	}
@@ -158,7 +156,7 @@
 		"font"			"font_ammo"
 		"font_minmode"	"font_ammo_minmode"
 		"fgcolor"		"255 175 0 255"
-		"xpos"			"76"//"102"//"90"
+		"xpos"			"131"//"76"//"102"//"90"
 		"ypos"			"56"
 		"xpos_minmode"	"44"
 		"ypos_minmode"	"32"
@@ -169,9 +167,9 @@
 		"tall_minmode"	"18"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"east"//"south-east"		
+		"textAlignment"	"west"//"east"//"south-east"		
 		"labelText"		"%Ammo%"
-		"textinsetx"	"25"
+		"textinsetx"	"26"//"25"
 		"textinsety"	"-6"
 		
 	}	
@@ -182,7 +180,7 @@
 		"font"			"font_ammo_outlineshadow"
 		"font_minmode"	"font_ammo_outlineshadow_minmode"
 		"fgcolor"		"0 0 0 255"
-		"xpos"			"76"
+		"xpos"			"131"
 		"ypos"			"56"
 		"xpos_minmode"	"44"
 		"ypos_minmode"	"32"
@@ -194,9 +192,9 @@
 		"tall_lodef"	"45"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"east"//"south-east"		
+		"textAlignment"	"west"//"south-east"		
 		"labelText"		"%Ammo%"
-		"textinsetx"	"25"
+		"textinsetx"	"26"
 		"textinsety"	"-6"
 	}
 	"LowAmmoWarning"

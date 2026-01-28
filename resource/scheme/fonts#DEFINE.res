@@ -1,98 +1,89 @@
+//////////////////////////////////////
+//REMOVE UNUSED
 Scheme
 {
 	CustomFontFiles
 	{
-        //Don't use these for numbers
-		"9"
-        {
-            "font"          "resource/fonts/verdana.ttf"
-            "name"          "Verdana"
-        }
-        "10"
-        {
-            "font"          "resource/fonts/verdanab.ttf"
-            "name"          "VerdanaBold"
-        }
-		//////////////////////////////////////
-		//REMOVE UNUSED
-		"11"
+        //Don't use these for numbers (???)
+		// "18"
+        // {
+            // "font"          "resource/fonts/verdana.ttf"
+            // "name"          "Verdana"
+        // }
+        // "19"
+        // {
+            // "font"          "resource/fonts/verdanab.ttf"
+            // "name"          "VerdanaBold"
+        // }
+		"20"
         {
             "font"          "resource/fonts/VerdanaBoldHUD.ttf"
             "name"          "VerdanaBoldHUD"
         }
-        "12"
+        "21"
         {
             "font"          "resource/fonts/VerdanaBoldHUD200em.ttf"
             "name"          "VerdanaBoldHUD200em"
         }
-        "13"
+        "22"
         {
             "font"          "resource/fonts/VerdanaBoldHUD320em.ttf"
             "name"          "VerdanaBoldHUD320em"
         }
-        "14"
+        "23"
         {
             "font"          "resource/fonts/VerdanaBoldHUD200emDS3DSW.ttf"
             "name"          "VerdanaBoldHUD200emDS3DSW"
         }
-        "15"
+        "24"
         {
             "font"          "resource/fonts/VerdanaBoldHUD200emDS3DSE.ttf"
             "name"          "VerdanaBoldHUD200emDS3DSE"
         }
-        "16"
+        "25"
         {
             "font"          "resource/fonts/VerdanaBoldHUD200emDS3DSWOL.ttf"
             "name"          "VerdanaBoldHUD200emDS3DSWOL"
         }
-        "16"
+        "26"
         {
             "font"          "resource/fonts/VerdanaBoldHUD420em.ttf"
             "name"          "VerdanaBoldHUD420em"
         }
-        "16"
+        "27"
         {
             "font"          "resource/fonts/VerdanaBoldHUD200emShadow_S.ttf"
             "name"          "VerdanaBoldHUD200emShadow_S"
         }
-        "16"
+        "28"
         {
             "font"          "resource/fonts/BebasNeue-Regular.ttf"
             "name"          "Bebas Neue"
         }
-        "16"
+        "29"
         {
             "font"          "resource/fonts/BebasNeue-Regular-OLShadow.ttf"
             "name"          "Bebas Neue OLShadow"
         }
-        "16"
+        "30"
         {
             "font"          "resource/fonts/BSHUDbowpips.ttf"
             "name"          "BSHUDbowpips"
         }
-        "16"
+        "31"
         {
             "font"          "resource/fonts/BSTFcrosshairs.ttf"
             "name"          "BSTFcrosshairs"
         }
 		//https://laemeur.sdf.org/fonts/
-        "16"
+		//do bitmap fonts work?
+        "32"
         {
-            "font"          "resource/fonts/LessPerfectDOSVGA.ttf"
-            "name"          "Less Perfect DOS VGA"
+            "font"          "resource/fonts/pf_tempesta_seven_compressed.ttf"
+            "name"          "PF Tempesta Seven Compressed"
         }
-        "16"
-        {
-            "font"          "resource/fonts/Nouveau_IBM_Stretch.ttf"
-            "name"          "Nouveau IBM Stretch"
-        }
-        "16"
-        {
-            "font"          "resource/fonts/C64_Pro-STYLE.ttf"
-            "name"          "C64 Pro"
-        }
-		//fontforge being annoying, "+" is separate font
-        "16"
+		fontforge being annoying, "+" is separate font
+        "33"
         {
             "font"          "resource/fonts/hpaccshadow.ttf"
             "name"          "hpaccshadow"

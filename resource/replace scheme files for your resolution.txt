@@ -1,2 +1,0 @@
-1440p (intended look) & non-1440p (resolution compatiblity) font customizations. Replace files in the "scheme" folder with the files in one of the "#scheme" folders. This method may change later.
-By default, the non-1440p font scheme files will be used so the font works for most people.

@@ -4,14 +4,16 @@ event TeamStatus_PlayerDead
 	SetVisible SkullPanel  1 0
 	SetVisible respawntime  1 0
 
-	Animate DeathPanel ypos 0 Accel 0 0.0
-	Animate SkullPanel ypos 0 Accel 0 0.0
+	//Animate DeathPanel ypos 0 Accel 0 0.0
+	Animate DeathPanel ypos -9999 Accel 0 0.0
+	Animate SkullPanel ypos 29 Accel 0 0.0
 	Animate respawntime ypos 23 Accel 0 0.0
 }
 
 event TeamStatus_PlayerAlive
 {
-	Animate DeathPanel ypos 0 Accel 0 0.0
+	//Animate DeathPanel ypos 0 Accel 0 0.0
+	Animate DeathPanel ypos -9999 Accel 0 0.0
 	Animate SkullPanel ypos 0 Accel 0 0.0
 	Animate respawntime ypos 23 Accel 0 0.0
 

@@ -1,1 +1,2 @@
-#base "../../resource/ui/EXT_MvM/MvMInWorldCurrency.res"
+//base
+#base "../../_BaseOverride/resource/ui/MvMInWorldCurrency.res"

@@ -2,8 +2,9 @@
 #base "../resource/scheme/fonts#DEFINE.res"
 //fonts
 #base "../resource/scheme/fonts.res"
+#base "../resource/scheme/fontsGeneral.res"
 #base "../resource/scheme/fontsInGame.res"
-#base "../resource/scheme/fontsMenu.res"
+//#base "../resource/scheme/fontsMenu.res" - obsolete
 //etc
 #base "../resource/scheme/colors.res"
 #base "../resource/scheme/borders.res"
@@ -106,7 +107,7 @@ Scheme
 		"HudTrainingHint"			"212 160 23 255"
 		
 		"TanDark"				"117 107 94 255"
-		"TanLight"				"235 226 202 255"
+		"TanLight"				"235 226 202 255" //targetid uses this
 		"TanDarker"				"46 43 42 255"
 		
 		"StoreDarkTan"			"131 121 104 255"
@@ -305,7 +306,7 @@ Scheme
 		GraphPanel.BgColor				"TransparentBlack"
 
 		Label.TextDullColor				"TanDark"
-		Label.TextColor					"TanLight"
+		Label.TextColor					"255 175 0 255"//"TanLight" //affects targetid
 		Label.TextBrightColor			"TanLight"
 		Label.SelectedTextColor			"White"
 		Label.BgColor					"Blank"
@@ -331,9 +332,9 @@ Scheme
 		Panel.BgColor					"Blank"
 
 		HTML.BgColor					"Blank"
-
-		ProgressBar.FgColor				"ProgressOffWhite"
-		ProgressBar.BgColor				"ProgressBackground"
+		//item effect meter charge bars color - foreground broken: always white
+		ProgressBar.FgColor				"255 175 0 255"//"ProgressOffWhite"
+		ProgressBar.BgColor				"0 0 0 50"//"ProgressBackground"
 
 		CircularProgressBar.FgColor		"White"
 		CircularProgressBar.BgColor		"White"
@@ -486,6 +487,8 @@ Scheme
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
+				"antialias"	"0"//
+				"dropshadow"	"1"//
 			}
 			"2"
 			{
@@ -495,6 +498,8 @@ Scheme
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
+				"antialias"	"0"//
+				"dropshadow"	"1"//
 			}
 			"3"
 			{
@@ -503,7 +508,8 @@ Scheme
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
-				"antialias"	"1"
+				"antialias"	"0"//"1"
+				"dropshadow"	"1"//
 			}
 			"4"
 			{
@@ -512,16 +518,18 @@ Scheme
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
-				"antialias"	"1"
+				"antialias"	"0"//"1"
+				"dropshadow"	"1"//
 			}
-			"5"
+			"5" //used by scoreboard playernames
 			{
 				"name"		"Verdana"
 				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
-				"antialias"	"1"
+				"yres"	"1200 6000"//"1200 6000"
+				"antialias"	"0"//"1"
+				"dropshadow"	"1"//
 			}
 			"6"
 			{
@@ -537,8 +545,6 @@ Scheme
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
 			}
-
-			
 		}
 		"DefaultUnderline"
 		{
@@ -613,9 +619,9 @@ Scheme
 		}
 
 
-		"DefaultVerySmall"
+		"DefaultVerySmall" ///scoreboard playernames?
 		{
-			"1"
+			"1" //???
 			{
 				"name"		"Verdana"
 				"tall"		"12"
@@ -623,7 +629,7 @@ Scheme
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
 			}
-			"2"
+			"2" //???
 			{
 				"name"		"Verdana"
 				"tall"		"12"
@@ -631,7 +637,7 @@ Scheme
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
 			}
-			"3"
+			"3" //???
 			{
 				"name"		"Verdana"
 				"tall"		"12"
@@ -640,7 +646,7 @@ Scheme
 				"yres"	"768 1023"
 				"antialias"	"1"
 			}
-			"4"
+			"4" //???
 			{
 				"name"		"Verdana"
 				"tall"		"14"
@@ -649,7 +655,7 @@ Scheme
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" //used by scoreboard heading of playernames
 			{
 				"name"		"Verdana"
 				"tall"		"16"
@@ -787,7 +793,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Verdana"//"TF2"
 				"tall"		"24"
 				"tall_lodef"	"80"
 				"weight"	"500"
@@ -797,7 +803,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"Verdana"//"TF2"
 				"tall"		"32"
 				"tall_hidef"	"120"
 				"weight"	"500"
@@ -807,7 +813,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"Verdana"//"TF2"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -816,7 +822,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"Verdana"//"TF2"
 				"tall"		"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -825,7 +831,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"Verdana"//"TF2"
 				"tall"		"52"
 				"weight"	"500"
 				"additive"	"0"
@@ -837,7 +843,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Verdana"//"TF2 Build"
 				"tall"		"44"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -850,7 +856,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Verdana"//"TF2 Build"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -863,7 +869,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Verdana"//"TF2"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -875,7 +881,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Verdana"//"TF2"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -886,7 +892,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Verdana"//"TF2 Build"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -897,7 +903,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Verdana"//"TF2"
 				"tall"		"24"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -909,7 +915,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"//"TF2 Secondary"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -920,7 +926,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Verdana"//"TF2 Build"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -931,7 +937,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Verdana"//"TF2 Build"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -942,7 +948,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Verdana"//"TF2"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -955,7 +961,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"//"TF2 Secondary"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -968,7 +974,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"//"TF2 Secondary"
 				"tall"		"14"
 				"tall_lodef"	"16"
 				"weight"	"500"
@@ -980,7 +986,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Verdana"//"TF2 Build"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -991,7 +997,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Verdana"//"TF2 Build"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1002,7 +1008,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Verdana"//"TF2 Build"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1014,7 +1020,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"//"TF2 Secondary"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1025,7 +1031,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"//"TF2 Secondary"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1037,9 +1043,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"11"
-				"weight"	"500"
+				"name"		"Verdana"//"TF2 Build"
+				"tall"		"10"//"11"
+				"weight"	"700"//"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1048,7 +1054,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Verdana"//"TF2 Build"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -1059,7 +1065,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Verdana"//"TF2 Build"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1070,7 +1076,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Verdana"//"TF2 Build"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1081,7 +1087,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Verdana"//"TF2 Build"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1092,7 +1098,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"//"TF2 Secondary"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1103,7 +1109,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Verdana"//"TF2 Build"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -1114,7 +1120,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"//"TF2 Secondary"
 				"tall"		"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -1123,13 +1129,13 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"TextTooltipFont"
+		"TextTooltipFont" ///???
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"//"TF2 Secondary"
 				"tall"		"11"
-				"weight"	"500"
+				"weight"	"700"//"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1501,10 +1507,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Verdana"//"TF2"
 				"tall"		"12"
 				"antialias" "1"
-				"weight"	"500"
+				"weight"	"700"//"500"
 			}
 		}
 		
@@ -1607,7 +1613,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"//"TF2 Secondary"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1620,7 +1626,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Verdana"//"TF2"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1632,7 +1638,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"//"TF2 Secondary"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1644,7 +1650,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"//"TF2 Secondary"
 				"tall"		"20"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
@@ -1658,7 +1664,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"//"TF2 Secondary"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1670,7 +1676,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"//"TF2 Secondary"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1682,7 +1688,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"//"TF2 Secondary"
 				"tall"		"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -2261,14 +2267,14 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		
+		///ItemSelectionPanel.res loadout screen MUST EDIT HERE, stubborn font definition
 		"ItemFontNameSmallest"
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Verdana"//"TF2 Build"
 				"tall"		"8"
-				"weight"	"500"
+				"weight"	"700"//"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2277,9 +2283,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Verdana"//"TF2 Build"
 				"tall"		"9"
-				"weight"	"500"
+				"weight"	"700"//"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2288,9 +2294,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Verdana"//"TF2 Build"
 				"tall"		"12"
-				"weight"	"500"
+				"weight"	"700"//"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2299,9 +2305,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Verdana"//"TF2 Build"
 				"tall"		"18"
-				"weight"	"500"
+				"weight"	"700"//"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2310,7 +2316,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"//"TF2 Secondary"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -2331,7 +2337,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"//"TF2 Secondary"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2342,7 +2348,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"//"TF2 Secondary"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2353,7 +2359,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"//"TF2 Secondary"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2930,7 +2936,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"//"TF2 Secondary"
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
@@ -3446,14 +3452,16 @@ Scheme
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"11"	
 		}
+		//WinPanel.res - RedScoreBG
+		///HudTournament.res - playerpanels_kv team bg
 		TFFatLineBorderRedBG
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../hud/color_panel_red"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
+			"image"					"../hud/color_panel_red_winpanel"//"../hud/color_panel_red"
+			"src_corner_height"		"1"//"23"				// pixels inside the image
+			"src_corner_width"		"1"//"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
@@ -3468,14 +3476,16 @@ Scheme
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
+		//WinPanel.res - BlueScoreBG
+		///HudTournament.res - playerpanels_kv team bg
 		TFFatLineBorderBlueBG
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../hud/color_panel_blu"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
+			"image"					"../hud/color_panel_blu_winpanel"//"../hud/color_panel_blu"
+			"src_corner_height"		"1"//"23"				// pixels inside the image
+			"src_corner_width"		"1"//"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}

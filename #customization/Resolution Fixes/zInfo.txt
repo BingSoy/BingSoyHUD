@@ -1,0 +1,4 @@
+general resolution fixes for specific resolutions
+- 1280 x 720: fixes health value alignment with outline/shadow, makes cart track thicker
+- 2560 x 1440: makes cart ui graphics less blurry
+- Thicker Cart Track: thicker payload cart track only (cart track is too small that it becomes invisible on certain resolutions without this)
