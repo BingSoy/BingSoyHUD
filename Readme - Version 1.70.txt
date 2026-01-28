@@ -64,6 +64,7 @@ A big general update all around - the HUD is more fleshed out with added graphic
 ➤ File organization, "_BaseOverride" folder added
 ➤ Menus more cleaned up & more styled, some button positions moved, new buttons - some with new graphics
 ➤ More main menu character replacements (including art & renders/re-renders from my TF2 videos)
+➤ New HUD logo - "Bing Soy HUD"
 ➤ Team/class select menu updated (not default anymore)
 ➤ Friends list button toggle with customization to hide button completely (Credit to ProtoA: https://gamebanana.com/mods/485024)
 ➤ New health icon skins (more hearts, hip squares, circle JJBA balls, Hollow Knight & pizza) with AHK customization scripts
