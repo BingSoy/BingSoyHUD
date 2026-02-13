@@ -83,7 +83,7 @@
 		"image"			"../hud/class_spy_outline"
 		"scaleImage"	"1"	
 	}		
-	"PlayerStatusSpyOutlineImage_STARTFRAME" //basic animation
+	"PlayerStatusSpyOutlineImage_STARTFRAME" //basic animation, see hudanimations
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyOutlineImage_STARTFRAME"
@@ -94,10 +94,11 @@
 		"tall"			"43"//"55"
 		"wide_minmode"	"27"
 		"tall_minmode"	"27"
-		"visible"		"1"//has to be visible, see hudanimations
+		"visible"		"1"//has to be visible
 		"enabled"		"1"
+		"alpha"			"0"//
 		"image"			"../hud/class_spy_outline#startframe"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}		
 	"PlayerStatusClassImageBG" //non-3d portrait bg
 	{

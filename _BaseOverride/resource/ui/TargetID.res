@@ -133,10 +133,10 @@
 		"tall"						"32"
 		"visible"					"0"
 		"enabled"					"0"	
-		"HealthBonusPosAdj"			"10"
-		"HealthDeathWarning"		"0.49"
+		"HealthBonusPosAdj"			"25"//"10"//match broken size when looking at target for consistency
+		"HealthDeathWarning"		"0.49"//"0.49"//hide for low hp
 		"TFFont"					"HudFontSmall"
-		"HealthDeathWarningColor"	"255 0 0 1"//"HUDDeathWarning"//no overheal/near death overlay
+		"HealthDeathWarningColor"	"255 0 0 255"//"255 0 0 1"//"HUDDeathWarning"//no overheal/near death overlay//DOES NOTHING WHEN LOOKING AT/NOT HEALING TARGET
 		"TextColor"					"HudOffWhite"
 	}	
 	

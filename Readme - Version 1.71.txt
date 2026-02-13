@@ -11,7 +11,7 @@
  ███████║██║   ██║██║  ██║                               
  ██╔══██║██║   ██║██║  ██║                               
  ██║  ██║╚██████╔╝██████╔╝                               
- ╚═╝  ╚═╝ ╚═════╝ ╚═════╝ v1.70
+ ╚═╝  ╚═╝ ╚═════╝ ╚═════╝ v1.71
 	a TF2 HUD by Bing Soy
 
 A clean & simple HUD. Made with both gameplay & fragmovies in mind, with emphasis on the health & ammo numbers and weapon meters. Optimized/prioritized development for 1440p resolution.
@@ -52,6 +52,16 @@ https://www.dafont.com/bebas-neue.font
 
 Changelog
 =========
+2026-02-13 - [v1.71] - vaccinator meter, target id overheal, small fixes
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+Fixed some oversights.
+
+➤ Vaccinator charge bar & count positions fixed
+➤ Target ID & Freeze Panel health icon - re-enabled and updated with reticle graphic for overheal/low HP
+➤ Freeze Panel arrows - materials updated
+➤ Spy disguise flash frame icon fixed - not visible on start
+➤ Stat Panel (class record) updated & moved to left instead of center
+
 2026-01-25 - [v1.70] - a large refinement
 ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
 A big general update all around - the HUD is more fleshed out with added graphics & more friendly to more resolutions
@@ -60,7 +70,7 @@ A big general update all around - the HUD is more fleshed out with added graphic
 ➤ Improved appearance across multiple resolutions
 ➤ Game mode objectives UI updated - some more polished than others (cp/ctf/koth/mvm/pd/pl/plr), BLU capping graphic fixed
 ➤ Team icon next to health/HUD player model
-➤ 2D HUD player model position updated
+➤ 2D HUD player model position updated (to same position as 3D player model)
 ➤ File organization, "_BaseOverride" folder added
 ➤ Menus more cleaned up & more styled, some button positions moved, new buttons - some with new graphics
 ➤ More main menu character replacements (including art & renders/re-renders from my TF2 videos)

@@ -25,7 +25,7 @@
 		"labelText"		""
 		"textAlignment" "center"
 		"xpos"			"c-250"
-		"ypos"			"61"//"60"//"55"//"50"
+		"ypos"			"75"//"61"//"60"//"55"//"50"
 		"zpos"			"2"
 		"wide"			"500"
 		"tall"			"50"

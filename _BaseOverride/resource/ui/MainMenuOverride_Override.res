@@ -232,7 +232,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"tabPosition"			"0"
-			"labelText"				"v1.70"
+			"labelText"				"v1.71"
 			"textAlignment"			"west"
 			"dulltext"				"0"
 			"brighttext"			"0"

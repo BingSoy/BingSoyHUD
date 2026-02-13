@@ -118,10 +118,10 @@
 		"tall"			"32"
 		"visible"		"1"
 		"enabled"		"1"	
-		"HealthBonusPosAdj"	"10"
-		"HealthDeathWarning"	"0.49"
+		"HealthBonusPosAdj"	"25"//"10"
+		"HealthDeathWarning"	"0.49"//"0.49"//hide for low hp
 		"TFFont"		"HudFontSmall"
-		"HealthDeathWarningColor"	"HUDDeathWarning"
+		"HealthDeathWarningColor"	"255 0 0 255"//"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
 	}	
 	//SPY DISGUISE OUTLINE GRAPHIC - HudSpyDisguiseChanged in hudanimations_tf.txt

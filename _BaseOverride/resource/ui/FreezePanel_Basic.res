@@ -284,11 +284,11 @@
 			"wide"			"100"//"31"
 			"tall"			"31"
 			"visible"		"1"
-			"enabled"		"1"	
-			"HealthBonusPosAdj"			"9"
-			"HealthDeathWarning"		"0.49"
+			"enabled"		"1"
+			"HealthBonusPosAdj"			"36"//"6"//"9"
+			"HealthDeathWarning"		"0.49"//"0.49"//hide for low hp
 			"TFFont"					"HudFontSmall"
-			"HealthDeathWarningColor"	"255 0 0 1"//"HUDDeathWarning"//no overheal/near death overlay
+			"HealthDeathWarningColor"	"255 0 0 255"//"HUDDeathWarning"//no overheal/near death overlay
 			"TextColor"					"HudOffWhite"
 		}	
 

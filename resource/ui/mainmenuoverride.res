@@ -1,3 +1,4 @@
+#base "vguipreload.res"
 //customizations
 	//demo navigation
 	#base "../../#customization/Main Menu/Demo Navigation Buttons/#ENABLED/resource/ui/MainMenuOverride.res"
